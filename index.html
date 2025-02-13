@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="
+    container">
+        <form id="form" class="form-1">
+<div class="img">
+    <img src="blur-radial.png" alt="" srcset="">
+</div>
+
+            <h1>Register</h1>
+
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" name="name" required> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" name="email" required>
+            <div class="btn" id="btn1">
+                <button type="submit" id="btn">Continue </button>
+            </div>
+
+        </form>
+
+        <form id="form" class="form-2">
+            <div class="img">
+                <img src="blur-radial.png" alt="" srcset="">
+            </div>
+            <h1>Personal Details</h1>
+
+            <label for="name">DOB</label> <br>
+            <input type="date" id="dob" name="dob">
+             <br>
+             <label for="name">phone number</label> <br>
+             <input type="telephone" id="tel" name="tel" pattern="[0-9]{10}" inputmode="numeric" required>
+              <br>
+            <div class="btn" id="btn2">
+                <button type="submit">Continue </button>
+            </div>
+
+        </form>
+
+        <form id="form" class="form-3">
+            <div class="img">
+                <img src="blur-radial.png" alt="" srcset="">
+            </div>
+
+            <h1>Summary</h1>
+            <p><strong>Name:</strong> <span id="summaryName"></span></p>
+            <p><strong>Email:</strong> <span id="summaryEmail"></span></p>
+            <p><strong>DOB:</strong> <span id="summaryDOB"></span></p>
+            <p><strong>Mobile Number:</strong> <span id="summaryPhone"></span></p>
+            <div class="btn" id="btn3">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

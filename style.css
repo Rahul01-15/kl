@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color:#121826 ;
+}
+
+
+.container{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color:#212936;
+    
+}
+h1{
+    text-align:left;
+    color: #E5E7EB;
+    padding: 20px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+form {
+margin-top: 100px;
+width: 500px;;
+padding:35px;
+border-radius: 15px;
+color: #E5E7EB;
+transition: 0.7s ease;
+}
+form input{
+   
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border:2px solid #4D5562;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align:left;
+}
+::placeholder{
+margin-bottom: 15px;
+background-color: #4D5562;
+}
+form label{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+.btn{
+  
+    text-align:center;
+    margin-bottom: 15px;
+    margin-top: 30px; 
+    margin-left:-45px;
+}
+.btn > button{
+    padding: 10px 25px;
+    
+    border-radius: 20px;
+    border: 2px solid #4D5562;
+    background: linear-gradient(180deg, #845eee 0%, #652cd1 100%);
+    color: #E5E7EB;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+.img{
+    z-index: -1;
+    position: absolute;
+    left:-150px;
+    top: -145px;
+    overflow: hidden;
+
+}
+span{
+    padding: 15px;
+}
+button:hover {
+    background-color: #6a46ce;
+}
+
+/* Media Queries for responsive design */
+
+/* Smartphones (portrait and landscape) */
+@media (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+
+    input, select, textarea {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+/* Tablets (portrait and landscape) */
+@media (min-width: 601px) and (max-width: 900px) {
+    form {
+        padding: 15px;
+    }
+
+    input, select, textarea {
+        padding: 9px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+}
+
+/* Laptops and desktops */
+@media (min-width: 901px) {
+    form {
+        padding: 20px;
+    }
+
+    input, select, textarea {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+}
